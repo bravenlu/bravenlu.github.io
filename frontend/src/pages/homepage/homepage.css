@@ -2,57 +2,19 @@
   background-color: pink;
   height: 100%;
   flex: 1;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.top {
-  flex: 1;
-  width: 100%;
-  background: white;
-  font-size: 5vmin;
-  font-weight: 800;
-  font-family: "Courier New", Courier, monospace;
-  display: flex;
-  justify-content: center;
+.home-body {
+  flex: 14;
+  display:flex;
   align-items: center;
-  flex-direction: row;
-}
-
-.sideA {
-  flex: 1;
-  height: 100%;
-  background: red;
-}
-
-.sideB {
-  flex: 1;
-  height: 100%;
-  background: orange;
-}
-
-.bottom {
-  flex: 5;
-  width: 100%;
-  background: blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  justify-content:center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 10vmin;
 }
 
 
-.contactbutton {
-    background: grey;
-    color: white;
-    transition: background 0.5s ease-in, color 0.2s ease-in;
-}
-
-.contactbutton:hover {
-    background: green;
-    color: red;
-    font-size: 10vmin;
-}

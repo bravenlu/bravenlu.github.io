@@ -12,20 +12,9 @@ class HomePage extends React.Component {
   render() {
     return (
      <div className="app-container">
-        <Nav />
-        <div className="top">
-            <div className="sideA">
-                <Link to="/contact" className="contactbutton">
-                    Contact
-                </Link>
-            </div>
-            <div className="sideB">
-                lol
-            </div>
-        </div>
-
-        <div className="bottom">
-           
+        <Nav/>
+        <div className="home-body">
+            Welcome!
         </div>
      </div>
     )
