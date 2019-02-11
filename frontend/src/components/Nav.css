@@ -1,5 +1,5 @@
 .navbar-container {
-    background: rgba(24,24,24, 0.5);
+    background: rgb(28,28,28);
     flex: 1;
     width: 100%;
     display: flex;
@@ -8,13 +8,13 @@
 }
 
 .home-button {
-    background: rgba(24,24,24, 0.5);
+    background: rgb(28,28,28);
     flex: 1;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     transition: background 0.3s ease-in, color 0.3s ease-in;
 }
@@ -25,13 +25,13 @@
 }
 
 .contact-button {
-    background: rgba(24,24,24, 0.5);
+    background: rgb(28,28,28);
     flex: 1;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     transition: background 0.3s ease-in, color 0.3s ease-in;
 }

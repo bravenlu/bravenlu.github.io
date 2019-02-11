@@ -8,3 +8,16 @@
   justify-content: center;
   flex-direction: column;
 }
+
+.contact-body {
+  flex: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Staatliches", cursive;
+  color: rgb(243, 243, 243);
+  font-size: 20vmin;
+  width: 100%;
+  text-align: center;
+}
