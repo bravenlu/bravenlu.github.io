@@ -1,5 +1,9 @@
 .app-container {
+<<<<<<< HEAD
   background-color:rgb(245, 238, 220);
+=======
+  background-color: rgba(28, 28, 28);
+>>>>>>> 3e6c4f3d8ab0856eabf60390d7024276d807dee6
   height: 100%;
   flex: 1;
   display: flex;
@@ -9,6 +13,7 @@
 }
 
 .home-body {
+<<<<<<< HEAD
   flex: 9;
   display:flex;
   align-items: center;
@@ -16,6 +21,71 @@
   font-family: 'Courier New', Courier, monospace;
   font-size: 10vmin;
   font-weight: 800;
+=======
+  flex: 14;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-family: "Staatliches", cursive;
+  font-weight: bold;
+  color: rgb(243, 243, 243);
+>>>>>>> 3e6c4f3d8ab0856eabf60390d7024276d807dee6
 }
 
+.home-sub {
+  flex: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+}
 
+.sub-title {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 0 0 0 auto;
+  width: 100%;
+  letter-spacing: 0.15em;
+  font-size: 3vmin;
+  padding: 5vmin;
+  font-family: "Montserrat", sans-serif;
+}
+
+.name-title {
+  text-align: center;
+  font-size: 15vmin;
+  text-align: left;
+  overflow: hidden;
+  border-right: 0.05em solid orange;
+  white-space: nowrap;
+  margin: 0 0 0 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(243, 243, 243);
+  }
+}
+
+/**
+font-family: 'Staatliches', cursive;
+font-family: 'Montserrat', sans-serif;
+**/
