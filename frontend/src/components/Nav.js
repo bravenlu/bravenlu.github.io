@@ -3,46 +3,6 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
-<<<<<<< HEAD
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            hidden: true,
-        }
-    }
-    toggleNav = () => {
-        this.setState({
-            hidden: false,
-        })
-    }
-    closeNav = () => {
-        this.setState({
-            hidden: true,
-        })
-    }
-
-    render() {
-        const { hidden } = this.state;
-        return (
-            <React.Fragment>
-                {!hidden && (
-                    <div className="navbar-container">
-                        <div className="home-button">Home</div>
-                        <div className="contact-button">Contact</div>
-                        <div onClick={this.closeNav} className="home-button">Close</div>
-                    </div>
-                )}
-
-                {hidden && (
-                    <div onClick={this.toggleNav} className="slider">
-                        >
-                    </div>
-                )}
-            </React.Fragment>
-        )
-    }
-=======
   render() {
     return (
       <div className="navbar-container">
@@ -61,7 +21,6 @@ class Nav extends React.Component {
       </div>
     );
   }
->>>>>>> 3e6c4f3d8ab0856eabf60390d7024276d807dee6
 }
 
 export default Nav;

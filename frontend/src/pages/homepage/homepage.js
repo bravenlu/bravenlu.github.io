@@ -10,19 +10,6 @@ class HomePage extends React.Component {
         super(props);
     }
 
-<<<<<<< HEAD
-
-    render() {
-        return (
-            <div className="app-container">
-                <Nav />
-                <div className="home-body">
-                    Welcome!
-                </div>
-            </div>
-        )
-    }
-=======
   render() {
     return (
       <div className="app-container">
@@ -38,7 +25,6 @@ class HomePage extends React.Component {
       </div>
     );
   }
->>>>>>> 3e6c4f3d8ab0856eabf60390d7024276d807dee6
 }
 
 export default HomePage;
