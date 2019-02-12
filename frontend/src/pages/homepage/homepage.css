@@ -1,20 +1,21 @@
 .app-container {
-  background-color: pink;
+  background-color:rgb(245, 238, 220);
   height: 100%;
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .home-body {
-  flex: 14;
+  flex: 9;
   display:flex;
   align-items: center;
   justify-content:center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 10vmin;
+  font-weight: 800;
 }
 
 

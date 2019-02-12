@@ -1,14 +1,14 @@
 .navbar-container {
-    background: rgba(24,24,24, 0.5);
-    flex: 1;
-    width: 100%;
+    background: rgb(154, 192,188);
+    width:100px;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    height: 100px;
+    flex-direction: column;
+    animation: extend 1.0s;
 }
 
 .home-button {
-    background: rgba(24,24,24, 0.5);
+    background: rgb(154, 192,188);
     flex: 1;
     display: flex;
     color: white;
@@ -17,15 +17,16 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
     transition: background 0.3s ease-in, color 0.3s ease-in;
+    animation: collapse 1.0s ease-out;
 }
 
 .home-button:hover {
-    background: white;
+    background: rgb(233, 147, 135);
     color: black;
 }
 
 .contact-button {
-    background: rgba(24,24,24, 0.5);
+    background: rgb(154, 192,188);
     flex: 1;
     display: flex;
     color: white;
@@ -37,6 +38,35 @@
 }
 
 .contact-button:hover {
-    background: white;
+    background: rgb(233, 147, 135);
     color: black;
 }
+
+.slider {
+    height:100%;
+    background-color: rgb(154, 192,188);
+    font-size: 5vmin;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmin;
+    font-weight: 800;
+}
+
+@keyframes extend {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100px;
+    }
+  }
+
+  @keyframes collapse {
+    from {
+      width: 100px;
+    }
+    to {
+      width: 0px;
+    }
+  }
